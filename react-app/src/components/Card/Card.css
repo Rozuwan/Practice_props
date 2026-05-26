@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 0 auto;
+    width: 1400px;
+    padding: 40px;
+    background: #00000016;
+}
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.card-item{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: white;
+    
+}
+
+.card-item h2{
+    margin-bottom: 15px;
+}
+
+.card-item li{
+    margin-bottom: 10px;
+    list-style-position: inside;
+}

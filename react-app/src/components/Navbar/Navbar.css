@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.nav-wrapper{
+  margin: 0 -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  display: block;
+  height: 60px;
+}
+.nav-items ul{
+  padding: 0 15px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav-items a{
+  text-decoration: none;
+}
