@@ -4,7 +4,7 @@ import "./ProductCard.css";
 
 const ProductCard = () => {
   return (
-    <div className="product-card">
+    <div className="product-cards">
       {productData.map((item)=>(
         <ProductCardItem key={item.id}
         image={item.image}
